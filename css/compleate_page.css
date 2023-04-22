@@ -1,0 +1,161 @@
+.compleate_page {
+    position: relative;
+    height: auto; 
+    min-height: calc(100vh - 46px + 11px);/*46 is header height  11 is footer invisability */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url(../img/rain_bk2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    justify-content: space-between;
+}
+.text_header_2 {
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.cp_1_text {
+    margin: 18px 11px 0px 18px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+.cp_2_text {
+    margin: 13px 23px 0px 29px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.cp_2_text span{
+    text-decoration-line: underline;
+}
+.cp_3_text {
+    margin: 22px 23px 0px 29px;
+    font-family: PT Serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgba(59, 222, 124, 1);
+}
+.cp_4_text {
+    margin: 22px 29px 0px 35px;
+    padding: 15px 12px 10.81px 12px;
+    background-color:rgba(28, 39, 65, 1);    ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+.cp_5_text {
+    margin: 2px 37px 0px 43px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #3BDE7C;
+}
+.cp_5_text span{
+    font-size: 20px;
+}
+.cp_6_text {
+    width: 100%;
+    background-color: #EB1B00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 31px 22px 14px 15px;
+}
+.cp_6_text:disabled{
+background-color:#88463d ;
+}
+.button_container_call{
+    width: auto;
+    margin-left:18px ;
+    margin-right: 12px;
+}
+
+.call_me {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+    margin-left: 15px;
+
+}
+.cp_7_text{
+    margin: 104px 17px 5px 16px;
+    font-family: Roboto;
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 9px;
+    letter-spacing: 3px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5);
+}
+.lighting_cp{
+    position: absolute;
+    z-index: -1;
+    width: 165px;
+    height: 165px;
+    left: -120px;
+    top: 50vh;
+    background: url(../img/lightning_PNG9.png);
+    transform: rotate(-53.15deg);
+}
+.lighting_cp_2{
+    position: absolute;
+    z-index: -1;
+    width: 165px;
+    height: 165px;
+    right: -70px;
+    top: 50vh;
+    transform: rotate(-53.15deg);
+    background: url(../img/lightning_PNG9.png);
+}
+.information_container{
+    width: -webkit-fill-available;
+    padding: 10px 0px;
+    margin: 10px 10px;
+    background-color:rgba(28, 39, 65, 1);    ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}

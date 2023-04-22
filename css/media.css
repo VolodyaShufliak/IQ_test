@@ -1,0 +1,43 @@
+@media(max-width:615px){
+    nav .checkbtn{
+        display: flex;
+        margin:0 10px ;
+    }
+    nav ul{
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #181818;
+        padding:64px 0px 0px 23px ;
+        left: -200vw;
+        top:0;
+        transition: 0.3s all;
+    }
+    nav ul li{
+        margin: 0 0 20px;
+        display: block;
+    }
+    .nav_li_item:has(a:hover){
+        background-color:inherit;
+    }
+    .nav_li_item a:hover{
+        color:rgba(255, 199, 0, 1);        ;
+        transition: 0.5s all;
+    }
+    #check:checked ~ ul{
+        left: 0;
+        z-index: 1;
+    }
+    #check:checked ~ * .hide_check{
+        display: block;
+        z-index: 2;
+    }
+    #check:checked ~ * .show_check{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Test</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/main_page.css">
+    <link rel="stylesheet" type="text/css" href="css/second_page.css">
+    <link rel="stylesheet" type="text/css" href="css/compleate_page.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/spinner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <div class="checkbtn">
+            <label class="show_check" for="check"><i class="fa fa-bars" ></i></label>
+            <label class="hide_check" for="check"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M28 2.82L25.18 0L14 11.18L2.82 0L0 2.82L11.18 14L0 25.18L2.82 28L14 16.82L25.18 28L28 25.18L16.82 14L28 2.82Z" fill="#FFC700"/>
+                </svg></label>
+            <span class="brain hide"><img src="img/rain_bk3.png"></span>
+            <span data-type="nav_title" class="text_header hide">Тест на определение IQ</span>
+            <span data-type="nav_title" class="text_header text_header_2 hide">ГОТОВО!</span>
+        </div>
+        <ul>
+            <li class="nav_li_item" data-type="main_page"><a href="#">Главная</a></li>
+            <li class="nav_li_item" data-type="more_information"><a href="#">Информация о тесте</a></li>
+            <li data-type="start_test" class="nav_li_item"><a  href="#">Пройти тест</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="page_one " data-type="page">
+            <div class="mp_white_text">Пройдите точный и быстрый</div>
+            <div class="mp_yellow_text">Тест на опредиления IQ</div>
+            <div class="button_container btn1"><button class="round_button" data-type="start_test">Пройти тест</button></div>
+            <div>
+                <div class="mp_bottom_text_1">И получите рекомендации по развитию своего интеллекта</div>
+                <div class="mp_bottom_text_2">и улучшению финансового благосостояния и личной жизни</div>
+            </div>
+            <div class="mp_more">
+                <div class="svg_arrow_container">
+                    <div class="svg_arrow">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.45453 7.63636L4.45453 2.10454L6.99544 4.64545L7.63635 4L3.99999 0.363632L0.363625 4L1.00453 4.6409L3.54544 2.10454L3.54544 7.63636L4.45453 7.63636Z" fill="#0C0B10"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="mp_more_text">Подробнее</div>
+            </div>
+        </div>
+        <div class="page_one_more_1 hide " data-type="page">
+            <div class="text_1">
+                <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.84845 22.65C4.84845 22.65 3.91512 22.2667 3.04845 21.5C2.21512 20.7 1.54845 19.6667 1.04845 18.4C0.581788 17.1333 0.34845 15.7833 0.34845 14.35C0.34845 12.15 0.731785 10.0833 1.49845 8.14999C2.29845 6.18332 3.26512 4.53332 4.39845 3.19999C5.53179 1.83332 6.61512 0.866655 7.64845 0.299988H7.69846L9.44846 1.89999V2.59999C8.61512 3.36665 7.83178 4.46665 7.09845 5.89999C6.36512 7.29999 5.99845 9.03332 5.99845 11.1C5.99845 12.1667 6.14846 13.0333 6.44846 13.7C6.74846 14.3667 7.19845 15.1 7.79845 15.9C8.29845 16.5333 8.66512 17.0833 8.89845 17.55C9.13179 18.0167 9.24845 18.5833 9.24845 19.25C9.24845 20.25 8.91512 21.0667 8.24845 21.7C7.61512 22.3333 6.81512 22.65 5.84845 22.65ZM19.7485 22.65C18.7485 22.65 17.8318 22.2667 16.9985 21.5C16.1651 20.7 15.4985 19.6667 14.9985 18.4C14.5318 17.1333 14.2985 15.7833 14.2985 14.35C14.2985 12.15 14.6818 10.0833 15.4485 8.14999C16.2485 6.18332 17.2151 4.51665 18.3484 3.14999C19.4818 1.78332 20.5651 0.83332 21.5984 0.299988H21.6485L23.3484 1.89999V2.59999C22.5151 3.36665 21.7318 4.46665 20.9985 5.89999C20.2651 7.29999 19.8985 9.03332 19.8985 11.1C19.8985 12.1667 20.0485 13.0333 20.3484 13.7C20.6484 14.3667 21.0985 15.1 21.6985 15.9C22.1985 16.5333 22.5651 17.0833 22.7985 17.55C23.0318 18.0167 23.1485 18.5833 23.1485 19.25C23.1485 20.25 22.8151 21.0667 22.1485 21.7C21.5151 22.3333 20.7151 22.65 19.7485 22.65Z" fill="white"/>
+                </svg>
+            </div>
+            <div class="text_2">Профессиональный IQ-тест позволяет не только определить коэффициент вашего интеллекта, 
+                но и выработать список рекомендаций для повышения этого показателя. </div>
+            <div class="text_3">
+                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.5 -2.71837e-05C18.5 -2.70963e-05 19.4333 0.383308 20.3 1.14997C21.1333 1.94998 21.8 2.98331 22.3 4.24997C22.7667 5.51664 23 6.86664 23 8.29998C23 10.5 22.6167 12.5666 21.85 14.5C21.05 16.4666 20.0833 18.1166 18.95 19.45C17.8167 20.8166 16.7333 21.7833 15.7 22.35L15.65 22.35L13.9 20.75L13.9 20.05C14.7333 19.2833 15.5167 18.1833 16.25 16.75C16.9833 15.35 17.35 13.6166 17.35 11.55C17.35 10.4833 17.2 9.61664 16.9 8.94997C16.6 8.28331 16.15 7.54997 15.55 6.74998C15.05 6.11664 14.6833 5.56664 14.45 5.09997C14.2167 4.63331 14.1 4.06664 14.1 3.39997C14.1 2.39997 14.4333 1.58331 15.1 0.949973C15.7333 0.31664 16.5333 -2.72682e-05 17.5 -2.71837e-05ZM3.59999 -2.83989e-05C4.59999 -2.83115e-05 5.51666 0.383307 6.34999 1.14997C7.18333 1.94997 7.85 2.98331 8.35 4.24997C8.81667 5.51664 9.05 6.86664 9.05 8.29997C9.05 10.5 8.66666 12.5666 7.89999 14.5C7.1 16.4666 6.13333 18.1333 5 19.5C3.86667 20.8666 2.78333 21.8166 1.75 22.35L1.7 22.35L1.39876e-07 20.75L2.01072e-07 20.05C0.833332 19.2833 1.61666 18.1833 2.34999 16.75C3.08333 15.35 3.45 13.6166 3.45 11.55C3.45 10.4833 3.3 9.61664 3 8.94997C2.7 8.28331 2.25 7.54997 1.65 6.74997C1.15 6.11664 0.783323 5.56664 0.549989 5.09997C0.316658 4.63331 0.199999 4.06664 0.199999 3.39997C0.199999 2.39997 0.533333 1.58331 1.2 0.949972C1.83333 0.316639 2.63333 -2.84834e-05 3.59999 -2.83989e-05Z" fill="white"/>
+                </svg>
+            </div>
+        </div>
+        <div class="page_one_more_2 hide" data-type="page">
+            <div class="text_1_2_1">
+                Также по результатам теста
+                <span>вы получите</span> подробные советы по определению наиболее перспективной <span>для вашего типа интеллекта сферы
+                деятельности,</span>
+                которая принесет вам скорейший финансовый результат.
+            </div>
+            <div class="img_1_2_1"><img src="img/1_2_1.png"></div>
+            <div class="button_container btn2"><button class="round_button" data-type="start_test">Пройти тест</button></div>
+        </div>
+        <div class="page_one_more_3 hide" data-type="page">
+            <div class="lighting_1" ></div>
+            <div class="lighting_2"></div>
+            <div class="text_1_3_1">
+                Прохождение теста займет у вас не более <span>12 минут</span>, а его результаты вы сможете <span>использовать всю жизнь</span>.
+            </div>
+            <div class="text_1_3_2">
+                Профессиональная интерпретация и детально <span>проработанные рекомендации</span> позволят вам качественно <span>изменить все аспекты своей жизни:</span> от финансового до любовного.
+            </div>
+            <div class="button_container btn3">
+                <button class="round_button" data-type="start_test">Пройти тест</button>
+            </div>
+            <div class="footer">
+                <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.71836 3.46168C1.95365 3.46168 2.15924 3.39037 2.33512 3.24777C2.51099 3.10517 2.60844 2.92692 2.62745 2.71301H3.25134C3.23945 2.93405 3.1634 3.14439 3.02317 3.34403C2.88295 3.54367 2.69519 3.70291 2.45989 3.82175C2.22698 3.94058 1.9798 4 1.71836 4C1.19311 4 0.774807 3.82531 0.463458 3.47594C0.154486 3.12418 0 2.64409 0 2.03565V1.92513C0 1.54961 0.0689245 1.21569 0.206774 0.923351C0.344623 0.631016 0.541889 0.40404 0.798574 0.242424C1.05764 0.0808081 1.36304 0 1.71479 0C2.14736 0 2.50624 0.129531 2.79144 0.388592C3.07903 0.647653 3.23232 0.983957 3.25134 1.3975H2.62745C2.60844 1.14795 2.51337 0.943553 2.34225 0.784314C2.1735 0.622698 1.96435 0.541889 1.71479 0.541889C1.37968 0.541889 1.11943 0.663102 0.934046 0.905526C0.75104 1.14557 0.659537 1.49376 0.659537 1.95009V2.07487C0.659537 2.51931 0.75104 2.86156 0.934046 3.1016C1.11705 3.34165 1.37849 3.46168 1.71836 3.46168Z" fill="white" fill-opacity="0.5"/>
+                </svg>
+                <div class="year">2019</div>
+            </div>
+        </div>
+        <div class="second_page hide" data-type="page">
+            <div class="top_con">
+                <div class="progress">
+                    <div class="all_progress">
+                        <div class="current_progress"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="second_page_content hide">
+                <div class="question">Ваш пол:</div>
+                <div class="radiobutton_group">
+                    <div>
+                        <input type="radio" id="sexChoice1" name="sex" value="Мужчина" />
+                        <label for="sexChoice1">Мужчина</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="sexChoice2" name="sex" value="Женщина" />
+                        <label for="sexChoice2">Женщина</label>
+                    </div>
+                </div>
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content hide">
+                <div class="question">Укажите ваш возраст:</div>
+                <div class="radiobutton_group">
+                    <div>
+                        <input type="radio" id="ageChoice1" name="age" value="До 18" />
+                        <label for="ageChoice1">До 18</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ageChoice2" name="age" value="От 18 до 28" />
+                        <label for="ageChoice2">От 18 до 28</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ageChoice3" name="age" value="От 29 до 35" />
+                        <label for="ageChoice3">От 29 до 35</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ageChoice4" name="age" value="От 36" />
+                        <label for="ageChoice4">От 36</label>
+                    </div>
+                </div>
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content hide">
+                <div class="question">Выберите лишнее:</div>
+                <div class="radiobutton_group">
+                    <div>
+                        <input type="radio" id="q3Choice1" name="q3" value="Дом" />
+                        <label for="q3Choice1">Дом</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q3Choice2" name="q3" value="Шалаш" />
+                        <label for="q3Choice2">Шалаш</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q3Choice3" name="q3" value="Бунгало" />
+                        <label for="q3Choice3">Бунгало</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q3Choice4" name="q3" value="Скамейка" />
+                        <label for="q3Choice4">Скамейка</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q3Choice5" name="q3" value="Скамейка" />
+                        <label for="q3Choice5">Скамейка</label>
+                    </div>
+                </div>
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content hide">
+                <div class="question">Продолжите числовой ряд:<br>18 20 24 32</div>
+                <div class="radiobutton_group small_rg">
+                    <div>
+                        <input type="radio" id="q4Choice1" name="q4" value="62" />
+                        <label for="q4Choice1">62</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q4Choice2" name="q4" value="48" />
+                        <label for="q4Choice2">48</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q4Choice3" name="q4" value="74" />
+                        <label for="q4Choice3">74</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q4Choice4" name="q4" value="57" />
+                        <label for="q4Choice4">57</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q4Choice5" name="q4" value="60" />
+                        <label for="q4Choice5">60</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q4Choice6" name="q4" value="77" />
+                        <label for="q4Choice6">77</label>
+                    </div>
+                </div>
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content hide">
+                <div class="question">Выберите цвет, который сейчас наиболее Вам приятен:</div>
+                <div class="radiobutton_group square_radio">
+                    <div>
+                        <input type="radio" id="q5Choice1" name="q5" value="grey" />
+                        <label for="q5Choice1" style="background-color: #A8A8A8;"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q5Choice2" name="q5" value="blue" />
+                        <label for="q5Choice2" style="background-color: #0000A9;"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q5Choice3" name="q5" value="green" />
+                        <label for="q5Choice3" style="background-color: #00A701;"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q5Choice4" name="q5" value="red" />
+                        <label for="q5Choice4" style="background-color: #F60100;"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q5Choice5" name="q5" value="yellow" />
+                        <label for="q5Choice5" style="background-color: #FDFF19;"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q5Choice6" name="q5" value="brown" />
+                        <label for="q5Choice6" style="background-color:#A95403" ></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q5Choice7" name="q5" value="black" />
+                        <label for="q5Choice7" style="background-color: #000000" ></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q5Choice8" name="q5" value="pink" />
+                        <label for="q5Choice8" style="background-color:#850068" ></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q5Choice9" name="q5" value="light_blue" />
+                        <label for="q5Choice9" style="background-color:#46B3AC" ></label>
+                    </div>
+                </div>
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content hide">
+                <div class="question">Отдохните пару секунд, еще раз Выберите цвет, который сейчас наиболее Вам приятен:</div>
+                <div class="radiobutton_group square_radio">
+                    <div>
+                        <input type="radio" id="q6Choice1" name="q6" value="grey" />
+                        <label for="q6Choice1" style="background-color: #A8A8A8;"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q6Choice2" name="q6" value="light_blue" />
+                        <label for="q6Choice2" style="background-color:#46B3AC" ></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q6Choice3" name="q6" value="brown" />
+                        <label for="q6Choice3" style="background-color:#A95403" ></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q6Choice4" name="q6" value="green" />
+                        <label for="q6Choice4" style="background-color: #00A701;"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q6Choice5" name="q6" value="black" />
+                        <label for="q6Choice5" style="background-color: #000000" ></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q6Choice6" name="q6" value="red" />
+                        <label for="q6Choice6" style="background-color: #F60100;"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q6Choice7" name="q6" value="pink" />
+                        <label for="q6Choice7" style="background-color:#850068" ></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q6Choice8" name="q6" value="yellow" />
+                        <label for="q6Choice8" style="background-color: #FDFF19;"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q6Choice9" name="q6" value="blue" />
+                        <label for="q6Choice9" style="background-color: #0000A9;"></label>
+                    </div>
+                </div> 
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content hide">
+                <div class="question small_question">Какой из городов лишний?</div>
+                <div class="radiobutton_group small_rg">
+                    <div>
+                        <input type="radio" id="q7Choice1" name="q7" value="Вашингтон" />
+                        <label for="q7Choice1">Вашингтон</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q7Choice2" name="q7" value="Лондон" />
+                        <label for="q7Choice2">Лондон</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q7Choice3" name="q7" value="Париж" />
+                        <label for="q7Choice3">Париж</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q7Choice4" name="q7" value="Нью-Йорк " />
+                        <label for="q7Choice4">Нью-Йорк</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q7Choice5" name="q7" value="Москва" />
+                        <label for="q7Choice5">Москва</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q7Choice6" name="q7" value="Оттава" />
+                        <label for="q7Choice6">Оттава</label>
+                    </div>
+                </div>
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content hide">
+                <div class="question">Выберите правильную фигуру из четырёх пронумерованных.</div>
+                <div class="div_for_img_p2"><img src="img/image (5).png"></div>
+                <div class="radiobutton_group square_radio small_square_ratio">
+                    <div>
+                        <input type="radio" id="q8Choice1" name="q8" value="1" />
+                        <label for="q8Choice1" >1</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q8Choice2" name="q8" value="2" />
+                        <label for="q8Choice2" >2</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q8Choice3" name="q8" value="3" />
+                        <label for="q8Choice3" >3</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q8Choice4" name="q8" value="4" />
+                        <label for="q8Choice4">4</label>
+                    </div>
+                </div>
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div> 
+            </div>
+            <div class="second_page_content hide ">
+                <div class="question">Вам привычнее и важнее:</div>
+                <div class="radiobutton_group vb_rg">
+                    <div>
+                        <input type="radio" id="q9Choice1" name="q9" value="Наслаждаться каждой минутой проведенного времени"/>
+                        <label for="q9Choice1">Наслаждаться каждой минутой проведенного времени</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q9Choice2" name="q9" value="Быть устремленными мыслями в будущее"/>
+                        <label for="q9Choice2">Быть устремленными мыслями в будущее</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q9Choice3" name="q9" value="Учитывать в ежедневной практике прошлый опыт" />
+                        <label for="q9Choice3">Учитывать в ежедневной практике прошлый опыт</label>
+                    </div>
+                </div>
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content hide ">
+                <div class="question vb_q">Какое определение, по-Вашему, больше подходит к этому геометрическому изображению: </div>
+                <div class="div_for_img_p2"><img src="img/image (6).png"></div>
+                <div class="radiobutton_group vb_rg">
+                    <div>
+                        <input type="radio" id="q10Choice1" name="q10" value="оно остроконечное" />
+                        <label for="q10Choice1">оно остроконечное</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q10Choice2" name="q10" value="оно устойчиво" />
+                        <label for="q10Choice2">оно устойчиво</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q10Choice3" name="q10" value="оно-находится в состоянии равновесия" />
+                        <label for="q10Choice3">оно-находится в состоянии равновесия</label>
+                    </div>
+                </div>
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content hide">
+                <div class="question">Вставьте подходящее число</div>
+                <div class="div_for_img_p2"><img src="img/image 2.png"></div>
+                <div class="radiobutton_group square_radio small_square_ratio small_square_ratio_2">
+                    <div>
+                        <input type="radio" id="q11Choice1" name="q11" value="34" />
+                        <label for="q11Choice1" >34</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q11Choice2" name="q11" value="36" />
+                        <label for="q11Choice2" >36</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q11Choice3" name="q11" value="53" />
+                        <label for="q11Choice3" >53</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q11Choice4" name="q11" value="44" />
+                        <label for="q11Choice4">44</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q11Choice5" name="q11" value="66" />
+                        <label for="q11Choice5" >66</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q11Choice6" name="q11" value="42" />
+                        <label for="q11Choice6">42</label>
+                    </div>
+                </div> 
+                <div class="button_container btn4"><button class="round_button" disabled data-type="next">Далее</button></div>
+            </div>
+            <div class="second_page_content last_second_page_content hide">
+                <div class="question last_res">Обработка результатов</div>
+                <div  class="container_for_spinner"><div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                 <div class="think">Определение стиля мышления............... ...................................................</div>
+            </div>
+        </div>
+        <div class="compleate_page hide " data-type="page">
+            <div class="cp_1_text">Ваш результат рассчитан:</div>
+            <div class="cp_2_text"><span>Вы относитесь к 3%</span> респондентов, чей уровень интеллекта более чем на 15 пунктов отличается от среднего в большую или меньшую сторону! </div>
+            <div class="cp_3_text">Скорее получите свой результат!</div>
+            <div class="cp_4_text">В целях защиты персональных данных результат теста, их подробная интерпретация и рекомендации доступны в виде голосового сообщения по звонку с вашего мобильного телефона</div>
+            <div class="cp_5_text">Звоните скорее, запись доступна всего <br><span id="minutes"></span><span>:</span><span id="seconds"></span> минут</div>
+            <div class="button_container button_container_call">
+                <button class="cp_6_text">
+                    <img src="img/Vector.png">
+                    <div class="call_me">Позвонить и прослушать результат</div>
+                </button>
+            </div>
+            <div class="cp_7_text">TERMENI SI CONDITII: ACESTA ESTE UN SERVICIU DE DIVERTISMENT. PRIN FOLOSIREA LUI DECLARATI CA AVETI 18 ANI IMPLINITI</div>
+            <div class="lighting_cp" ></div>
+            <div class="lighting_cp_2"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

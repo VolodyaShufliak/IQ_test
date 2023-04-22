@@ -1,0 +1,246 @@
+.page_one {
+    background-image: url(../img/rain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 46px);    /* 46px - header widht */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mp_white_text {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+}
+.mp_yellow_text {
+    color:#FFC700;
+    text-align: center;
+    font-size:30px;
+    padding: 0px 30px 0px 30px;
+    text-transform: uppercase;
+}
+.button_container {
+    font-family: Merriweather;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+
+}
+.btn1 button{
+    background-color: #FFC700;
+    margin-top: 175px;
+    margin-bottom: 20px;
+}
+.mp_bottom_text_1{
+    color: #FFC700;
+    text-align: center;
+    padding: 0 30px 0 31px;
+    font-family: PT Serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+.mp_bottom_text_2{
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 0 30px 0 31px;
+}
+.mp_more{
+    width: 100%;
+    margin-top: 30px;
+}
+.mp_more_text{
+    color: #FFFFFF;
+    font-family: PT Serif;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+.svg_arrow_container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.svg_arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+}
+.page_one_more_1 {
+    height: 500px;
+    justify-content: center;
+    background: radial-gradient(84.34% 50.29% at 48.75% 49.71%, #2950C2 0%, rgba(38, 91, 199, 0.96) 40.62%, rgba(39, 98, 187, 0) 85.42%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    color: #FFFFFF;
+    padding: 83px 36px 48px;
+    height: auto;
+
+}
+.text_1 {
+    margin-bottom: 17px;
+    
+}
+.text_2 {
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+
+    
+}
+.text_3 {
+    float: right;
+    margin-right: 29px;
+
+}
+
+.page_one_more_2 {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.text_1_2_1 {
+    padding: 38px 11px 0px;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+.text_1_2_1 span{
+    font-family: PT Serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.img_1_2_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_1_2_1 img{
+    width: 232px;
+    height: 180px;
+    justify-self: center;
+
+}
+.btn2 button{
+    background-color: #FFC700;
+    margin-bottom: 57px;
+}
+.page_one_more_3 {
+    background-image: url(../img/rain_bk2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+.lighting_1 {
+
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: -50px;
+    top: 274px;
+    background: url(../img/lightning_PNG9.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    transform: rotate(-31.55deg);
+
+}
+.lighting_2 {
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 220px;
+    top: 66px;
+    background: url(../img/lightning_PNG9.png);
+    background-repeat: no-repeat;
+    background-size:contain; 
+    transform: rotate(19.42deg);
+}
+.text_1_3_1 {
+    color: #FFFFFF;
+    margin: 56px 51px 14px 14px;
+    font-family: Merriweather;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.text_1_3_1 span{
+    color: #FFC700;
+}
+
+.text_1_3_2 {
+    margin: 0px 12px 33px;
+    padding: 29px 15px  31px 14px;
+    background: rgba(243, 243, 242, 0.8);
+    border-radius: 20px;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.text_1_3_2 span{
+    font-weight: 700;
+}
+.btn3{
+    margin-bottom: 52px;
+}
+.btn3 button{
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    background-color: rgba(243, 243, 242, 0);
+    color: #FFFFFF;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 13px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.year {
+    margin-left: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: rgba(255, 255, 255, 0.5);
+
+}

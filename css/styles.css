@@ -1,0 +1,34 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100%;
+    min-height: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:  #181818;
+}
+.round_button{
+    width: 189px;
+    height: 41px;
+    border-radius: 20px;
+    text-align: center;
+    justify-self: center;
+    padding: 13.05px 17.01px 10.25px;
+    text-transform: uppercase;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.disable_overflow_y{
+    overflow-y: hidden;
+}
+.main{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
